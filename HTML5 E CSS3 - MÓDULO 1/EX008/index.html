@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById("teste")</code>
+        é escrito em linguagem JavaScript.
+    </p>
+    <br>
+    <code>
+        function calcularSoma(array) {
+            return array.reduce((soma, numero) => soma + numero, 0);
+        }
+        
+        const numeros = [1, 2, 3, 4, 5];
+        const soma = calcularSoma(numeros);
+        console.log(`A soma dos números é: ${soma}`);
+    </code>
+    <br>
+    <br>
+    <!--Agora veja o poder da tag <pre> ao lado da tag <code>
+        com o mesmo código, ele faz toda uma identação!-->
+        <pre>
+            <code>
+                function calcularSoma(array) {
+                    return array.reduce((soma, numero) => soma + numero, 0);
+                }
+                
+                const numeros = [1, 2, 3, 4, 5];
+                const soma = calcularSoma(numeros);
+                console.log(`A soma dos números é: ${soma}`);
+            </code>
+        </pre>
+        <blockquote cite="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formata%C3%A7%C3%A3o%20de%20Textos.pdf">
+          Esses pds estão sendo muito importantes para mim,
+          espero avançar bastante esse ano e conseguir um ótimo emprego!
+
+        </blockquote>
+        <p>Estou estudando <abbr title="Hyper Text Markup Languagem">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>!</p>
+    <H2>Texto invertido</H2>
+    <p><bdo dir="ltr">Estou invertendo esse texto</bdo></p>
+    <p><bdo dir="ltr">Testando 123</bdo></p>
+    <p><bdo dir="rtl">Aqui também estou invertendo o texto</bdo></p>
+</body>
+
+</html>

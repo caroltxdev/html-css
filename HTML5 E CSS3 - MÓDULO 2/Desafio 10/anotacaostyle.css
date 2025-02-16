@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*Adicionando a fonte que o professor disponibilizou no material,
+adicionado na correção*/
+@font-face {
+    font-family:'Android';
+    src: url(fontes/idroid.otf);
+    font-weight:normal;
+}
+/*Cores utilizadas no site:
+#c5ebd6; (verde mais claro)
+#83e1ad;
+#3ddc84;
+#2fa866;
+#1a5c37; (verde mais escuro)
+#063d1e; (preto mais esverdeado)
+*/
+
+/*-raíz da árvore do nosso site, todo site tem
+  -e toda variável em css começa com 2 traços!!
+*/
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: "Bebas Neue", serif;
+    --fonte-android: "Android", serif;  
+}
+body{
+    background-color: var(--cor0);
+}
+
+#header{
+    font-family: var(--fonte-android)
+    background-image: linearGradient()
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    width: 1311px;
+}
+#menor{
+    font-family: var(--fonte-destaque)
+    font-size: 15px;
+    height: 55px;
+    background-color: #18612e;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 1312px;
+}
+#titulo{
+    font-family: var(--fonte-android)
+    color: rgb(5, 75, 5);
+    text-align: center;
+}
+nav:hover{
+    background-color: white;
+}
+footer{
+    width: 1400px;
+    text-align: center;
+    background-color: #108b31;
+    color: white;
+}
+.conteudo{
+    padding: 10px; 
+    width: 600px;
+    margin: 0px auto;
+    background-attachment: fixed;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 0px 0px 10px 10px;
+}
+.home{
+    text-decoration: underline;
+    height: 1px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #18612e;
+    color: white;
+}
+.noticias{
+    text-decoration: underline;
+    height: 1px;
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #18612e;
+    color: white;
+}
+.curiosidades{
+    text-decoration: underline;
+    height: 1px;
+    width: 90px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #18612e;
+    color: white;
+}
+.faleconosco{
+    text-decoration: underline;
+    height: 1px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #18612e;
+    color: white;
+}
+.menu{
+    background-color: #18612e;
+    margin: auto;
+    width: 1311px;
+    height: 85px;
+    width: 1312px;
+}
+h2{
+    font-family: var(--fonte-android)
+    background-color: var(--cor2);
+    color: rgb(5, 75, 5);
+    text-align: center;
+}
+.irina{
+    width: 600px;
+    padding: 10px;
+}
+.droids{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+.verdinho{
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+
+}
+iframe{
+    width: 540px;
+    height: 300px;
+    padding: 30px;
+    background-color: #18612e;
+}
+#titulotabela{
+    background-color: #18612e;
+    padding: 1px;
+    width: 600px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+   
+}
+#tabela{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #7ce698a6;
+}
+.tabela1{
+    display: inline-block;
+}
+.tabela2{
+    display: inline-block;
+}
