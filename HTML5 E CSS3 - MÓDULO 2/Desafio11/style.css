@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*Configuração global para não haver bordas no meu site*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: darkblue;
+}
+#fundo{
+    background-image:url(img/espaco.jpg);
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 96vh;
+    padding: 12px;
+}
+#astronauta{
+    background-image: url(img/astronauta.png);
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 500px;
+    width: 500px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
